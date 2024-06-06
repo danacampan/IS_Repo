@@ -1,0 +1,57 @@
+1.d)
+Singurele optiuni care includ interfata in descriere sunt d) si e). La punctul e,
+clasa Capitol nu defineste compozitia de obiecte tip Carte, pentru ca un capitol
+nu poate avea mai multe carti, ci invers. Deci raspunsul corect e d).
+
+2.c,f
+Acestea sunt singurele optiuni corecte care au legatura cu clasa Revista.
+La punctul c se defineste o colectie de tip Articol, care e in relatie de compozitie cu clasa Revista.
+La punctul f, ni se spune ca clasa Revista implementeaza interfata Produs, ceea ce este corect. La a)
+ni se spune ca clasa Revista extinde clasa Produs, ceea ce e incorect, deoarece Produs e o interfata.
+Punctul b) nu e corect deoarece interfata Produs nu implementeaza clasa Revista, ci invers.
+Punctele b), e) si g) nu au legatura cu clasa Revista.
+
+3.a,c,g
+Punctul b) nu e scris corect, ar trebui sa fie private int grade.
+Punctul d) nu e corect deoarece atributul deadline nu e si nu ar trebui sa fie public.
+Punctul e) nu e corect deoarece nu se zice ce tip de functie avem, in acest caz ar trebui sa fie
+public int getGrade().
+Punctul f) nu e corect deoarece clasa Proiect si clasa Student nu se afla in relatie de mostenire,
+ci de agregrare.
+Punctul h) nu e corect deoarece clasa Diagram se afla in rel. de compozitie cu clasa Proiect,
+iar asta inseamna ca trebuie implementata ca colectie in clasa Proiect, un proiect are mai
+multe diagrame.
+
+
+4.b,d,f.
+Punctul a) nu e corect deoarece acesta implica ca clasa Student este clasa
+"copil", iar clasa StudentBursier este clasa "parinte", ceea ce nu e corect.
+Punctul c) nu este corect deoarece 
+Punctul e) nu este corect deoarece operatia adaugaProiect ar trebui sa fie publica, astfel 
+incat subclasele sa o poata accesa.
+
+5.b)
+Punctul a) nu e corect deoarece intre clasele Profesor si Materie nu exista o relatie de 
+mostenire.
+Punctele c) si d) se refera la clasa Materie care realizeaza relatia de asociere, ceea
+ce nu e reprezentat in diagrama.
+
+6.a,e
+Punctul b) nu e corect deoarece din diagrama reiese ca asocierea e unidirectionala,
+nu bidirectionala.
+Punctul c) nu e corect deoarece intre clasele Test si Materie exista o relatie de compozitie,
+adica mai multe teste fac parte dintr-o materie, si nu e relatie de mostenire.
+Punctul d) nu e corect deoarece intre Materie si Laborator este o rel.de compozitie,
+nu de agregare.
+
+7.c
+Punctele a) si b) nu sunt corecte deoarece implica relatii de mostenire, care nu sunt 
+prezente in diagrama.
+Punctul d) nu e corect deoarece atributul laborator trebuie initializat ca o colectie
+in clasa Materie, fiind o rel. de compozitie intre cele doua clase.
+Punctul e) nu e corect deoarece definitia colectiei nu e completa.
+
+8.d
+
+
+

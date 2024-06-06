@@ -1,0 +1,13 @@
+1. a). Dacă x==y, atunci rezultatul scăderii lor va fi clar 0, deci postcondiția z == 0
+se verifică pe baza precondiției.
+b). Precondiția este true, iar statement-ul din program, și anume x:=400, conduce clar către postcondiția
+x == 400.
+c). Precondiția este ca x să fie mai mare sau egal cu 0 și mai mic decât 100. În cadrul
+instrucțiunilor din program, postcondiția ține, deoarece dacă incrementăm x cu 1 iar acesta
+este mai mic decât 100 din precondiție, x va ajunge să fie clar mai mare sau egal cu 0,
+și mai mic sau egal cu 100.
+ *100
+  b). 0 <= x <= N+1
+
+4.a). true
+  b). y = x-1
